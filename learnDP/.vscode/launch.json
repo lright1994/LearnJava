@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - client",
+            "request": "launch",
+            "mainClass": "buaa.lright.client",
+            "projectName": "learnDP"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AbFactory",
+            "request": "launch",
+            "mainClass": "buaa.lright.AbFactory",
+            "projectName": "learnDP"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Factory",
+            "request": "launch",
+            "mainClass": "buaa.lright.Factory",
+            "projectName": "learnDP"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<learnDP>",
+            "request": "launch",
+            "mainClass": "buaa.lright.App",
+            "projectName": "learnDP"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 8000
+        }
+    ]
+}
