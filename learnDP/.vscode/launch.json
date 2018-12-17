@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Composite",
+            "request": "launch",
+            "mainClass": "buaa.lright.Composite",
+            "projectName": "learnDP"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - client",
             "request": "launch",
             "mainClass": "buaa.lright.client",
